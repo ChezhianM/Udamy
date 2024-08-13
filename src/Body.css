@@ -1,0 +1,120 @@
+/* Default styles */
+img {
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.welcome {
+    position: absolute;
+    top: 200px;
+    max-width: 20%;
+}
+
+.welcome h1 {
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+
+.welcome h3 {
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    width: 120%;
+}
+
+.button {
+    position: absolute;
+    top: 500px;
+    margin-left: 40px;
+    width: 150px;  
+}
+
+.content {
+    padding: 25px;
+    width: 250px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: larger;
+    border-color: black;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.css {
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    margin-left: 70%;
+    margin-top: -35%;
+}
+
+.html {
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    margin-left: 80%;
+    margin-top: -35%;
+}
+
+.js {
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    margin-left: 75%;
+    margin-top: -25%;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+    .welcome {
+        top: 150px;
+    }
+
+    .welcome h1 {
+        font-size: 30px;
+    }
+
+    .welcome h3 {
+        margin-top: 30px;
+    }
+
+    .button {
+        top: 400px;
+    }
+
+    .css, .html, .js {
+        width: 20%;
+        margin-top: -40%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .welcome {
+        top: 100px;
+    }
+
+    .welcome h1 {
+        font-size: 25px;
+    }
+
+    .welcome h3 {
+        margin-top: 20px;
+    }
+
+    .button {
+        top: 300px;
+    }
+
+    .css, .html, .js {
+        width: 30%;
+        margin-top: -40%;
+    }
+}
